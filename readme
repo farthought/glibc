@@ -1,0 +1,4 @@
+conf.c:纯c编写的读取配置文件的程序
+glib-parser：使用glib提供的g_key_file读取配置文件的程序
+gobject：glibc系统提供的c模拟面向对象的方法
+water.c：换水问题

@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SOME_IS_OBJECT	someObject.h	8;"	d
+SOME_IS_OBJECT_CLASS	someObject.h	9;"	d
+SOME_OBJECT	someObject.h	6;"	d
+SOME_OBJECT_CLASS	someObject.h	7;"	d
+SOME_OBJECT_GET_CLASS	someObject.h	10;"	d
+SOME_OBJECT_H	someObject.h	2;"	d
+SOME_OBJECT_TYPE	someObject.h	5;"	d
+SomeObject	someObject.h	/^typedef struct _SomeObject SomeObject;$/;"	t	typeref:struct:_SomeObject
+SomeObjectClass	someObject.h	/^typedef struct _SomeObjectClass SomeObjectClass;$/;"	t	typeref:struct:_SomeObjectClass
+_SomeObject	someObject.h	/^struct _SomeObject$/;"	s
+_SomeObject::gtype	someObject.h	/^    GTypeInstance gtype;$/;"	m	struct:_SomeObject	access:public
+_SomeObject::m_b	someObject.h	/^    gchar * m_b;$/;"	m	struct:_SomeObject	access:public
+_SomeObject::m_b	someObject.h	/^    gint * m_b;$/;"	m	struct:_SomeObject	access:public
+_SomeObject::m_c	someObject.h	/^    gfloat m_c;$/;"	m	struct:_SomeObject	access:public
+_SomeObjectClass	someObject.h	/^struct _SomeObjectClass$/;"	s
+_SomeObjectClass::gtypeclass	someObject.h	/^    GTypeClass gtypeclass;$/;"	m	struct:_SomeObjectClass	access:public
+_SomeObjectClass::method1	someObject.h	/^    void (*method1) (SomeObject *self, gint);$/;"	m	struct:_SomeObjectClass	access:public
+_SomeObjectClass::method2	someObject.h	/^    void (*method2) (SomeObject *self, gchar *);$/;"	m	struct:_SomeObjectClass	access:public
+gtype	someObject.h	/^    GTypeInstance gtype;$/;"	m	struct:_SomeObject	access:public
+gtypeclass	someObject.h	/^    GTypeClass gtypeclass;$/;"	m	struct:_SomeObjectClass	access:public
+m_b	someObject.h	/^    gchar * m_b;$/;"	m	struct:_SomeObject	access:public
+m_b	someObject.h	/^    gint * m_b;$/;"	m	struct:_SomeObject	access:public
+m_c	someObject.h	/^    gfloat m_c;$/;"	m	struct:_SomeObject	access:public
+method1	someObject.h	/^    void (*method1) (SomeObject *self, gint);$/;"	m	struct:_SomeObjectClass	access:public
+method2	someObject.h	/^    void (*method2) (SomeObject *self, gchar *);$/;"	m	struct:_SomeObjectClass	access:public
+some_object_class_final	someObject.h	/^void some_object_class_final (gpointer g_class, gpointer class_data);$/;"	p	signature:(gpointer g_class, gpointer class_data)
+some_object_class_init	someObject.h	/^void some_object_class_init (gpointer g_class, gpointer class_data);$/;"	p	signature:(gpointer g_class, gpointer class_data)
+some_object_get_type	someObject.h	/^GType some_object_get_type(void);$/;"	p	signature:(void)
+some_object_instance_init	someObject.h	/^void some_object_instance_init (GTypeInstance *instance, gpointer g_class);$/;"	p	signature:(GTypeInstance *instance, gpointer g_class)
+some_object_method1	someObject.h	/^void some_object_method1 (SomeObject *self, gint);$/;"	p	signature:(SomeObject *self, gint)
+some_object_method1_imp1	someObject.c	/^void some_object_method1_imp1(SomeObject *self, gint a)$/;"	f	signature:(SomeObject *self, gint a)
+some_object_method2	someObject.h	/^void some_object_method2 (SomeObject *self, gchar*);$/;"	p	signature:(SomeObject *self, gchar*)
+some_object_method3	someObject.h	/^void some_object_method3 (SomeObject *self, gfloat);$/;"	p	signature:(SomeObject *self, gfloat)
